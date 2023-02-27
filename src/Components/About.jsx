@@ -20,7 +20,6 @@ function About() {
         <h3>{items?.title}</h3>
         <h3>{items?.price}</h3>
         <p><b>{items?.category}</b></p>
-        {/* <small>{items?.description}</small> */}
         <p>{items?.rating?.rate}</p>
        </div>
      </div>

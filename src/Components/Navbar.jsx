@@ -1,9 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 function Navbar() {
+  function abc(){
+    
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+  }
   return (
     <div>
-        <nav className="navbar navbar-expand-lg navbar-light bg-light m-2">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light m-2 ">
             <a className="navbar-brand" href="#">FakestoreAPI</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
@@ -20,7 +25,7 @@ function Navbar() {
                   <Link className="nav-link" to="/products">Products</Link>
                 </li>                
               </ul>
-              
+              <button onClick={abc}>Toggletheme</button>
             </div>
         </nav>
     </div>

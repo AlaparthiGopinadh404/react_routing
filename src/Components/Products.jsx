@@ -16,7 +16,7 @@ function Products() {
                 
                 <img src={a?.image} alt=""  width="250px" height="300px"/>
                 <p><Link to={`/des/${a.id}`}>{a.title}</Link></p>
-                <p>{a?.price}</p>
+                <p>{a?.price }/-</p>
                 {/* <p><Link to={`/des/${a.title}`}>{a?.title}</Link></p> */}
                 {/* <p>{a?.description}</p> */}
                 <p><b>{a?.category}</b></p>
